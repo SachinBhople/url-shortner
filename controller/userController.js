@@ -10,7 +10,8 @@ exports.addUrl = asyncHandler(async (req, res) => {
     }
 
     if (!label) {
-        return res.status(400).json({ meassage: "Please Provide Label" })
+        // return res.status(400).json({ meassage: "Please Provide Label" })
+        return res.status(400).json({ message: "Please Provide Labeel" })
     }
 
     if (shortUrl) {

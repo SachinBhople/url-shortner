@@ -7,6 +7,7 @@ router
     .get("/url", getUserUrl)
     .post("/url-create", addUrl)
     .put("/url-update/:urlId", updateUserUrl)
+    // .put("/url-update/:urlId", updateUserUrl)
     .delete("/url-remove/:urlId", deleteUserUrl)
 
 module.exports = router
